@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="./img/notepad.png">
+    <title>Keep</title>
+</head>
+
+<body onload="renderBin()">
+    <header>
+        <img onclick="openMenu()" class="header-img small-img" src="./img/menu.png">
+        <h1 class="small-font-bin">Manage deleted notes</h1>
+        
+    </header>
+
+
+    <div id="removedNotes" class="removed-notes-container">
+
+    </div>
+
+
+    <div class="menu-container menu-small" id="menu">
+        <img onclick="location.href='index.html'" src="./img/notepad.png">
+        <img onclick="location.href='bin.html'" src="./img/trash.png">
+    </div>
+</body>
+
+</html>
+<script src="script.js"></script>

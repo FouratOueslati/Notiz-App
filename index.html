@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="./img/notepad.png">
+    <title>keep</title>
+</head>
+
+<body onload="render()">
+
+    
+
+    <header>
+        <img onclick="openMenu()" class="header-img small-img" src="./img/menu.png">
+        <h1 class="small-font">Keep...</h1>
+        <p class="hide-mobile">your notes safe and close!</p>
+    </header>
+
+
+    <div id="titleInput" class="input-container small-input">
+        <input onclick="openEnterNoteInput()" class="title-input" placeholder="Tilte">
+
+
+    </div>
+
+
+    <div id="addedNotes" class="added-notes-container">
+
+    </div>
+
+    <div class="menu-container menu-small" id="menu">
+        <img  onclick="location.href='index.html'" src="./img/notepad.png">
+        <img  onclick="location.href='bin.html'" src="./img/trash.png">
+    </div>
+
+
+</body>
+
+</html>
+
+<script src="script.js"></script>
